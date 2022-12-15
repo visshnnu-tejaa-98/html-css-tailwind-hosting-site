@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+.box-shadow {
+  -webkit-box-shadow: -1px 10px 87px -53px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -1px 10px 87px -53px rgba(0, 0, 0, 1);
+  box-shadow: -1px 10px 87px -53px rgba(0, 0, 0, 1);
+}
