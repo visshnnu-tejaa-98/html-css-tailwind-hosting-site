@@ -14,3 +14,30 @@ body {
   -moz-box-shadow: -1px 10px 87px -53px rgba(0, 0, 0, 1);
   box-shadow: -1px 10px 87px -53px rgba(0, 0, 0, 1);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c8bfd;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0088ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
